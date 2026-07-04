@@ -1,0 +1,174 @@
+.footer{
+    background:#0f172a;
+    color:#d1d5db;
+    padding:70px 0 30px;
+}
+
+.footer h5{
+    color:#fff;
+    font-size:20px;
+    font-weight:600;
+    margin-bottom:20px;
+}
+
+.footer p{
+    line-height:1.8;
+    font-size:15px;
+    color:#cbd5e1;
+}
+
+.footer ul{
+    padding:0;
+    margin:0;
+}
+
+.footer ul li{
+    list-style:none;
+    margin-bottom:12px;
+}
+
+.footer ul li a{
+    text-decoration:none;
+    color:#cbd5e1;
+    transition:.3s;
+}
+
+.footer ul li a:hover{
+    color:#0ea5e9;
+    padding-left:6px;
+}
+
+/*==========================
+Logo Image
+==========================*/
+
+.footer img:first-child{
+    width:220px;
+    height:130px;
+    object-fit:cover;
+    border-radius:18px;
+    margin-bottom:20px;
+    border:3px solid rgba(255,255,255,.1);
+    box-shadow:0 15px 35px rgba(0,0,0,.35);
+}
+
+/*==========================
+Social Icons
+==========================*/
+
+.social-icon{
+    width:45px;
+    height:45px;
+    display:inline-flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:50%;
+    margin-right:10px;
+    color:#fff;
+    font-size:18px;
+    transition:.3s;
+}
+
+.social-icon:hover{
+    transform:translateY(-5px);
+}
+
+.facebook{
+    background:#1877f2;
+}
+
+.instagram{
+    background:#e1306c;
+}
+
+.linkedin{
+    background:#0a66c2;
+}
+
+.youtube{
+    background:#ff0000;
+}
+
+/*==========================
+Payment
+==========================*/
+
+.payment-icons{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-top:15px;
+}
+
+.payment-icons img{
+    width:60px;
+    height:38px;
+    object-fit:contain;
+    background:#fff;
+    border-radius:8px;
+    padding:5px;
+}
+
+/*==========================
+Bottom
+==========================*/
+
+.footer-bottom{
+    margin-top:50px;
+    padding-top:20px;
+    border-top:1px solid rgba(255,255,255,.15);
+    text-align:center;
+    color:#94a3b8;
+    font-size:14px;
+}
+
+/*==========================
+Responsive
+==========================*/
+
+@media(max-width:768px){
+
+.footer{
+    text-align:center;
+    padding:50px 20px 25px;
+}
+
+.footer img:first-child{
+    width:180px;
+    height:110px;
+    margin:auto auto 20px;
+    display:block;
+}
+
+.payment-icons{
+    justify-content:center;
+}
+
+.social-icon{
+    margin:5px;
+}
+
+.footer h5{
+    margin-top:30px;
+}
+
+}
+
+@media(max-width:576px){
+
+.footer img:first-child{
+    width:160px;
+    height:100px;
+}
+
+.payment-icons img{
+    width:50px;
+    height:34px;
+}
+
+.footer p,
+.footer a{
+    font-size:14px;
+}
+
+}

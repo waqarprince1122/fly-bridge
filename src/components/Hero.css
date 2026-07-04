@@ -1,0 +1,64 @@
+@media (max-width: 768px) {
+
+.hero-container-fluid{
+    margin-top: 70px;
+}
+
+.hero-img{
+    height: 75vh;
+    object-fit: cover;
+    border-radius: 0;
+}
+
+.hero-text{
+    width: 95%;
+    top: 50%;
+}
+
+.hero-text h1{
+    font-size: 32px;
+    line-height: 1.3;
+    margin-bottom: 15px;
+}
+
+.hero-text p{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.hero-text .card{
+    border-radius: 20px !important;
+    padding: 20px !important;
+}
+
+.hero-text .row{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-text .col-md-5,
+.hero-text .col-md-2{
+    width: 100%;
+}
+
+.hero-text .border-end{
+    border-right: none !important;
+    border-bottom: 1px solid #eee;
+    padding: 15px 0 !important;
+}
+
+.hero-text .border-end:last-child{
+    border-bottom: none;
+}
+
+.hero-text input{
+    font-size: 14px;
+}
+
+.hero-text .btn-warning{
+    width: 55px;
+    height: 55px;
+    margin: 15px auto 0;
+}
+
+}

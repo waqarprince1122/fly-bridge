@@ -1,0 +1,37 @@
+body {
+  padding-top: 100px; 
+  overflow-x: hidden;
+}
+.about-wrapper {
+  width: 100%;
+  overflow-x: hidden;
+}
+.bg-light {
+  background-color: #f8f9fa !important;
+}
+img {
+  border-radius: 10px;
+}
+.border {
+  transition: 0.3s;
+}
+
+.border:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+.btn-dark {
+  transition: 0.3s;
+}
+
+.btn-dark:hover {
+  background-color: #000;
+  transform: scale(1.05);
+}
+h1, h2, h4 {
+  letter-spacing: 0.5px;
+}
+
+p {
+  font-size: 15px;
+}

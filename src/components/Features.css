@@ -1,0 +1,302 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:"Poppins",sans-serif;
+    background:#f8fafc;
+}
+
+/*==========================
+Features Section
+==========================*/
+
+.features-section{
+    padding:90px 0;
+    background:#f8fafc;
+}
+
+/*==========================
+Heading
+==========================*/
+
+.features-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:end;
+    margin-bottom:50px;
+    gap:20px;
+}
+
+.section-tag{
+    display:inline-block;
+    background:#e6f4ff;
+    color:#e97d2f;
+    padding:8px 18px;
+    border-radius:30px;
+    font-size:14px;
+    font-weight:600;
+    margin-bottom:15px;
+}
+
+.features-header h2{
+    font-size:42px;
+    font-weight:700;
+    color:#222;
+    margin-bottom:12px;
+}
+
+.features-header p{
+    color:#777;
+    max-width:550px;
+    line-height:1.7;
+}
+
+.slider-btns{
+    display:flex;
+    gap:15px;
+}
+
+.slider-btns button{
+    width:50px;
+    height:50px;
+    border:none;
+    border-radius:50%;
+    background:white;
+    cursor:pointer;
+    font-size:18px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.slider-btns button:hover{
+    background:#e5a40e;
+    color:white;
+    transform:translateY(-3px);
+}
+
+/*==========================
+Cards
+==========================*/
+
+.destination-card{
+    background:white;
+    border-radius:22px;
+    overflow:hidden;
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+    transition:.4s;
+}
+
+.destination-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 25px 45px rgba(0,0,0,.15);
+}
+
+.image-box{
+    position:relative;
+    overflow:hidden;
+}
+
+.image-box img{
+    width:100%;
+    height:270px;
+    object-fit:cover;
+    transition:.5s;
+}
+
+.destination-card:hover img{
+    transform:scale(1.1);
+}
+
+/* Wishlist */
+
+.wishlist-btn{
+    position:absolute;
+    top:18px;
+    right:18px;
+    width:42px;
+    height:42px;
+    border:none;
+    border-radius:50%;
+    background:white;
+    color:#ff4d6d;
+    cursor:pointer;
+    box-shadow:0 10px 20px rgba(0,0,0,.15);
+}
+
+/* Rating */
+
+.rating{
+    position:absolute;
+    left:18px;
+    bottom:18px;
+    background:white;
+    padding:8px 14px;
+    border-radius:30px;
+    display:flex;
+    align-items:center;
+    gap:8px;
+    font-weight:600;
+    box-shadow:0 10px 25px rgba(0,0,0,.12);
+}
+
+.rating svg{
+    color:#f7b500;
+}
+
+/*==========================
+Content
+==========================*/
+
+.card-content{
+    padding:24px;
+}
+
+.card-content h4{
+    font-size:24px;
+    font-weight:700;
+    margin-bottom:10px;
+}
+
+.card-content p{
+    color:#777;
+    display:flex;
+    align-items:center;
+    gap:8px;
+    margin-bottom:25px;
+}
+
+.location-icon{
+    color:#05dc2c;
+}
+
+.card-footer{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.card-footer small{
+    color:#999;
+}
+
+.card-footer h5{
+    color:#c07702;
+    font-size:24px;
+    margin-top:5px;
+}
+
+.explore-btn{
+    border:none;
+    padding:11px 22px;
+    border-radius:30px;
+    background:#fdad0d;
+    color:white;
+    cursor:pointer;
+    font-weight:600;
+    transition:.3s;
+}
+
+.explore-btn:hover{
+    background:#084298;
+}
+
+/*==========================
+Bottom Button
+==========================*/
+
+.see-btn{
+    padding:15px 45px;
+    border:none;
+    border-radius:40px;
+    background:#b07800;
+    color:white;
+    font-size:17px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.see-btn:hover{
+    transform:translateY(-3px);
+    box-shadow:0 15px 30px rgba(13,110,253,.3);
+}
+
+/*==========================
+Responsive
+==========================*/
+
+@media(max-width:992px){
+
+.features-header{
+    flex-direction:column;
+    align-items:flex-start;
+}
+
+.features-header h2{
+    font-size:34px;
+}
+
+.slider-btns{
+    margin-top:10px;
+}
+
+}
+
+@media(max-width:768px){
+
+.features-section{
+    padding:70px 0;
+}
+
+.features-header h2{
+    font-size:28px;
+}
+
+.features-header p{
+    font-size:15px;
+}
+
+.image-box img{
+    height:240px;
+}
+
+.card-content h4{
+    font-size:22px;
+}
+
+.card-footer{
+    flex-direction:column;
+    align-items:flex-start;
+    gap:15px;
+}
+
+.explore-btn{
+    width:100%;
+}
+
+.see-btn{
+    width:100%;
+}
+
+}
+
+@media(max-width:576px){
+
+.image-box img{
+    height:220px;
+}
+
+.features-header h2{
+    font-size:24px;
+}
+
+.section-tag{
+    font-size:13px;
+}
+
+}
+
