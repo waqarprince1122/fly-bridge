@@ -1,12 +1,12 @@
 import React from "react";
 import "./Hero.css";
-import hero from "../assets/hero.jpg";
+import Card1 from "../assets/Card1.jpg";
 import { FaMapMarkerAlt, FaCalendarAlt, FaSearch } from "react-icons/fa";
 
 function Hero() {
   return (
     <div className="hero-container-fluid position-relative">
-      <img src={hero} className="hero-img img-fluid w-100" alt="travel" />
+      <img src={Card1} className="hero-img img-fluid w-100" alt="travel" />
 
       <div className="hero-text text-center text-white position-absolute top-50 start-50 translate-middle w-75">
         <h1>
