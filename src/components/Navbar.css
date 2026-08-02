@@ -1,8 +1,9 @@
 .custom-navbar{
-  background:#ffffff;
+  background:gray;
   box-shadow:0 4px 20px rgba(0,0,0,0.08);
   padding:8px 0;
   font-style:Bold;
+  
 }
 
 .navbar-nav {
